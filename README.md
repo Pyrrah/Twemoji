@@ -8,7 +8,7 @@
 This bundle allows you to replace emojis on a web page with emojis from the Twitter Emojis library (Twemoji).
 Usually, the emojis used come from your system and they are different from one system to another.
 
-Based on [Avris\Twemoji](https://gitlab.com/Avris/Twemoji), with the last version of Twemoji (actually 14.2.0).
+Based on [Avris\Twemoji](https://gitlab.com/Avris/Twemoji), with the last version of Twemoji (actually 14.0.2).
 
 What is Twemoji ?
 -----------------

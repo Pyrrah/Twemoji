@@ -14,7 +14,7 @@ final class TwemojiService
         HttpClientInterface $httpClient,
         CacheInterface $cache,
         $format = 'svg',
-        $version = '14.2.0'
+        $version = '14.0.2'
     )
     {
         $this->emojis = $cache->get('twemoji', function (CacheItem $item) use ($httpClient, $format, $version) {
