@@ -1,4 +1,4 @@
-# Pyrrah/Twemoji
+# Pyrrah/Twemoji 😉
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE)
@@ -10,8 +10,9 @@ Usually, the emojis used come from your system and they are different from one s
 
 Based on [Avris\Twemoji](https://gitlab.com/Avris/Twemoji), with the last version of Twemoji (actually 14.2.0).
 
-Twemoji
--------
+What is Twemoji ?
+-----------------
+
 [Twemoji](https://github.com/twitter/twemoji) is a great way to make emoji's on your website independent of system and browser.
 
 Unless you just use this library to replace emojis with `<img>` tags in your backend.
