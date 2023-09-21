@@ -2,7 +2,7 @@
     "name": "pyrrah/twemoji",
     "description": "The simple way to use Twitter Emoji (Twemoji) for Symfony 6.x.",
     "keywords": ["twemoji", "emoji", "symfony", "twemoji symfony"],
-    "type": "project",
+    "type": "symfony-bundle",
     "license": "MIT",
     "authors": [{
         "name": "Avris",
