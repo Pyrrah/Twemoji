@@ -1,0 +1,35 @@
+{
+    "name": "pyrrah/twemoji",
+    "description": "The simple way to use Twitter Emoji (Twemoji) for Symfony 6.x.",
+    "keywords": ["twemoji", "emoji", "symfony", "twemoji symfony"],
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "Avris",
+        "email": "andrea@avris.it",
+        "homepage": "https://avris.it"
+    },
+    {
+        "name": "Pierre-Yves Dick",
+        "homepage": "https://github.com/Pyrrah"
+    }],
+    "require": {
+        "php": "^7.0|^8.0",
+        "symfony/cache": "^4.0|^5.0|^6.0",
+        "symfony/http-client": "^4.0|^5.0|^6.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.0|^5.0",
+        "phpunit/phpunit": "^7.5",
+        "twig/twig": "^2.12"
+    },
+    "suggest": {
+        "twig/twig": "Provides a Twig filter"
+    },
+    "autoload": {
+        "psr-4": { "Pyrrah\\Twemoji\\": "src" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Pyrrah\\Twemoji\\": "tests" }
+    }
+}
