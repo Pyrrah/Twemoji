@@ -14,7 +14,7 @@ final class TwemojiService
         HttpClientInterface $httpClient,
         CacheInterface $cache,
         $format = 'svg',
-        $version = '14.1.2'
+        $version = 'latest'
     )
     {
         $this->emojis = $cache->get('twemoji', function (CacheItem $item) use ($httpClient, $format, $version) {
@@ -38,7 +38,7 @@ final class TwemojiService
                     $emoji .= mb_chr(hexdec($code));
                 }
                 $emojis[$emoji] = sprintf(
-                    '<img draggable="false" class="emoji" alt="%s" src="https://twemoji.maxcdn.com/v/%s/%s/%s.%s">',
+                    '<img draggable="false" class="emoji" alt="%s" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@%s/assets/%s/%s.%s">',
                     $emoji,
                     $version,
                     $format === 'svg' ? 'svg' : '72x72',
