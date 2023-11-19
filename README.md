@@ -8,12 +8,14 @@
 This bundle allows you to replace emojis on a web page with emojis from the Twitter Emojis library (Twemoji).
 Usually, the emojis used come from your system and they are different from one system to another.
 
-Based on [Avris\Twemoji](https://gitlab.com/Avris/Twemoji), with the last version of Twemoji (actually 14.0.2).
+Based on [Avris\Twemoji](https://gitlab.com/Avris/Twemoji).
+
+*Since 2023, @jdecked has stopped working for Twitter but continues to maintain the package on Jdecked/Twemoji. The actually version used is 14.1.2.*
 
 What is Twemoji ?
 -----------------
 
-[Twemoji](https://github.com/twitter/twemoji) is a great way to make emoji's on your website independent of system and browser.
+[Twemoji](https://github.com/jdecked/twemoji) is a great way to make emoji's on your website independent of system and browser ([old repository](https://github.com/twitter/twemoji)).
 
 Unless you just use this library to replace emojis with `<img>` tags in your backend.
 
