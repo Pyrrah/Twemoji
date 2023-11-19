@@ -10,7 +10,7 @@ Usually, the emojis used come from your system and they are different from one s
 
 Based on [Avris\Twemoji](https://gitlab.com/Avris/Twemoji).
 
-*Since 2023, @jdecked has stopped working for Twitter but continues to maintain the package on Jdecked/Twemoji. The actually version used is 14.1.2.*
+*Since 2023, @jdecked has stopped working for Twitter but continues to maintain the package on Jdecked/Twemoji. We use the latest version.*
 
 What is Twemoji ?
 -----------------
