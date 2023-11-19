@@ -14,13 +14,13 @@ final class TwemojiService
         HttpClientInterface $httpClient,
         CacheInterface $cache,
         $format = 'svg',
-        $version = '14.0.2'
+        $version = '14.1.2'
     )
     {
         $this->emojis = $cache->get('twemoji', function (CacheItem $item) use ($httpClient, $format, $version) {
             $reponse = $httpClient->request(
                 'GET',
-                'https://api.github.com/repos/twitter/twemoji/git/trees/master?recursive=1',
+                'https://api.github.com/repos/jdecked/twemoji/git/trees/main?recursive=1',
                 [
                     'headers' => [
                         'Accept' => 'application/vnd.github.v3+json',
