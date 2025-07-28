@@ -10,7 +10,9 @@ Usually, the emojis used come from your system and they are different from one s
 
 Based on [Avris\Twemoji](https://gitlab.com/Avris/Twemoji).
 
-*Since 2023, @jdecked has stopped working for Twitter but continues to maintain the package on Jdecked/Twemoji. We use the latest version.*
+> [!NOTE]
+> Since 2023, @jdecked no longer works for Twitter but continues to maintain the package on Jdecked/Twemoji.
+> To get the most up-to-date emojis, we use the latest version of the CDN by default.
 
 What is Twemoji ?
 -----------------
@@ -47,7 +49,7 @@ In your controller :
 
   ```
   $twemoji->replace('Hello! 👋');
-  // Hello! <img draggable="false" class="emoji" alt="👋" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f44b.svg">
+  // Hello! <img draggable="false" class="emoji" alt="👋" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/svg/1f44b.svg">
   ```
 
 Using Twig:
